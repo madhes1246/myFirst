@@ -10,19 +10,19 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 class App extends Component {
     render() {
         return (
+            <h1>madhes</h1>
+            // <BrowserRouter>
+            //     <Routes>
+            //         <Route index element={<NavBar />} />
 
-            <BrowserRouter>
-                <Routes>
-                    <Route index element={<NavBar />} />
+            //         <Route path="/" element={<Home />} />
+            //         <Route path="/parent" element={<Parent />} />
+            //         <Route path="/service" element={<Services />} />
+            //         <Route path="/contact" element={<Contact />} />
 
-                    <Route path="/" element={<Home />} />
-                    <Route path="/parent" element={<Parent />} />
-                    <Route path="/service" element={<Services />} />
-                    <Route path="/contact" element={<Contact />} />
 
-                   
-                </Routes>
-            </BrowserRouter>
+            //     </Routes>
+            // </BrowserRouter>
         );
     }
 }
